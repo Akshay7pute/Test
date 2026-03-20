@@ -1,4 +1,10 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/username/public_html/
+    - export DEPLOYPATH=/home/aihika/public_html/
     - /bin/cp -R * $DEPLOYPATH
+# deployment:
+#   tasks:
+#     - export DEPLOYPATH=/home/username/public_html/
+#     - /bin/cp -R * $DEPLOYPATH
+
+
